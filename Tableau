@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>bug2(de)bug - Power BI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<head>
+								<style>
+								h3 {text-align: center;}
+								p {text-align: center;}
+								div {text-align: center;}
+								</style>
+								</head>
+								<body>
+							<!-- Header -->
+							<header id="header">
+								<a href="index.html" class="logo"><img src="images\bug to debug text.png" alt="" /></a>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/jack-murray-7534131b3/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/jackv-murray" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									<li><a href="https://www.kaggle.com/jackmurray94" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+									
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Tableau</h1>
+									</header>
+                                </section>
+                                <span class="image"><img src="images\power bi.png" alt="" /></span>
+                                <p>This is the main BI tool that I use to produce insight dashboards for stakeholders, giving them a powerful overview of current state of play, allowing easy tracking of KPIs and other business metrics. I also use Tableau for storytelling purposes, creating data viz's to tell compelling stories.</p>
+                                <section>
+                                    <h3>Global company sales</h3>
+                                    
+
+									<p>My first ever Power BI visual, with the scenario based on fictional data regarding global company sales. I used DAX functions to create yearly breakdowns and added measures to work out total and average sales. Shown are various summary visuals with slicers for filtering. Navigation buttons are included to the different pages of the report for a more in-depth look.</p>
+                                    <iframe title="First visual - Power BI" width=100% height="850" src="https://app.powerbi.com/view?r=eyJrIjoiMzk3NTQxZDAtMGMwZS00NmRiLWExYTktNWRkYmFkZGUyOTlkIiwidCI6IjYyZTFmMzc2LWQzYzMtNDg0My1iMTY0LTgzZTU4NjgwN2Q2MiJ9" frameborder="0" allowFullScreen="true"></iframe>
+								
+								</section>
+									<h3>Worldwide GDP and life expectancy trends</h3>
+                                    
+
+									<p>Using a public dataset from www.gapminder.org, I clean and visualise worldwide GDP and life expectancy data to analyse trends.</p>
+                                    <iframe title="First visual - Power BI" width=100% height="850" src="https://app.powerbi.com/view?r=eyJrIjoiNzg2YTM4ODQtMGQ3MC00NzY1LTgwZWEtNDlhYjQzMGNlMGI5IiwidCI6IjYyZTFmMzc2LWQzYzMtNDg0My1iMTY0LTgzZTU4NjgwN2Q2MiJ9" frameborder="0" allowFullScreen="true"></iframe>
+								
+								</section>
+
+
+						</div>
+					</div>
+
+					<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="about me.html">About me</a></li>
+										<li>
+											<span class="opener">Projects</span>
+											<ul>
+												<li><a href="Python projects.html">Python</a></li>
+												<li><a href="SQL projects.html">SQL</a></li>
+                                                <li><a href="Power BI visuals.html">Power BI</a></li>
+											</ul>
+										</li>
+										
+								</nav>
+
+						<!-- Section -->
+						<section>
+							<header class="major">
+								<h2>Check these out!</h2>
+							</header>
+							<div class="mini-posts">
+								<article>
+									<a href="https://github.com/jackv-murray/Data-science-portfolio/blob/main/python_projects/building%20spam%20filter%20naive%20bayes%20-%20stats.ipynb" class="image"><img src="images\naive bayes.png" alt="" /></a>
+									<p>Applying probability concepts such as Bayes' theorem to build an algorithm to classify messages as spam or non-spam.
+									</p>
+								</article>
+								<article>
+									<a href="https://github.com/jackv-murray/Data-science-portfolio/blob/main/python_projects/popular%20data%20science%20qs%20-%20intermediate.ipynb" class="image"><img src="images\pop data science qs.png" alt="" /></a>
+									<p>Using python to investigate popular data science topics, using post data from StackExchange. Seaborn visuals, tracking interest over time, public database querying!
+									</p>
+								</article>
+							</div>
+						</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>If you'd like to get in contact with me, please see below. I welcome any feedback and I can provide CVs for interested recruiters.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">jacklfdgd@gmail.com</a></li>
+										
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Jack Murray 2022. All rights reserved</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
