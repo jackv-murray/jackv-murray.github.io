@@ -1495,7 +1495,7 @@ button,
   background-color: transparent;
   border-radius: 0.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #f0bb0d;
+  /* box-shadow: inset 0 0 0 2px #f0bb0d; */
   color: #f0bb0d !important;
   cursor: pointer;
   display: inline-block;
@@ -1513,13 +1513,13 @@ button,
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
-  button:hover,
+  /* button:hover,
   .button:hover {
     background-color: rgba(245, 106, 106, 0.05); }
   input[type="submit"]:active,
   input[type="reset"]:active,
-  input[type="button"]:active,
-  button:active,
+  input[type="button"]:active, */
+  /* button:active,
   .button:active {
     background-color: rgba(245, 106, 106, 0.15); }
   input[type="submit"].icon:before,
@@ -1530,7 +1530,7 @@ button,
     margin-right: 0.5em; }
   input[type="submit"].fit,
   input[type="reset"].fit,
-  input[type="button"].fit,
+  input[type="button"].fit, */
   button.fit,
   .button.fit {
     width: 100%; }
@@ -2271,3 +2271,46 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+
+
+
+    body {
+      font-family: Consolas, monospace;
+      font-size: 18px;
+      color: rgb(51, 37, 37);
+      transition: background-color 0.5s ease, color 0.5s ease;
+  }    
+
+
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+body.dark-theme {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6 {
+    color: #f0bb0d; 
+}
+
+
+body.dark-theme strong {
+  color: #f0bb0d; 
+}
+
+#theme-toggle {
+  font-size: 2em; /* Adjust the font size as needed */
+}
+
+

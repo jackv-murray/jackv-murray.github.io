@@ -16,7 +16,7 @@ p {
 	flex-shrink: 1;
 }
 body {
-            font-family: Consolas, monospace; /* Specify Consolas as the font */
+            font-family: Consolas, monospace; 
 			font-size: 18px;
 			color: rgb(51, 37, 37);
 			flex-shrink: 1;
@@ -29,15 +29,41 @@ body * {
             font-family: Consolas, monospace;
         }
         .logo_alt img {
-            max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-            height: auto; /* Maintain aspect ratio */
-            width: 400px; /* Set the width to 200 pixels, adjust as needed */
+            max-width: 100%; 
+            height: auto;
+            width: 400px; 
         }
 		h1{
             font-family: Consolas, monospace;
 			font-size: 50px;
         }
-		
+
+		.sun {
+  width: 30px; 
+  height: 30px; 
+  background-image: url('images/light toggle.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  border: none; 
+  cursor: pointer; 
+}	
+
+/* Dark theme button style */
+.dark .sun {
+    background-image: url('images/dark toggle.png'); 
+}
+.logo img {
+    display: block;
+    width: auto; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+    margin: 0 auto; 
+}
+
+
+
 
 
 </style>
@@ -51,16 +77,6 @@ body * {
 					<div id="main">
 						<div class="inner">
 
-							<!-- Header
-								<header id="header">
-									<a href="index.html" class="logo"><img src="images\main_logo.gif" alt="" /></a>
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/jack-murray-7534131b3/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-										<li><a href="https://github.com/jackv-murray" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="https://www.kaggle.com/jackmurray94" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
-										
-								</ul> -->
-								<!-- </header> --> 
 
 							<!-- Banner -->
 								<section id="banner">
@@ -79,6 +95,7 @@ body * {
 												<body>
 											</head>
 
+											<button id="theme-toggle" class="sun"></button> </br>
 											<header>
 												<style>
 													h3 {text-align: center;}
@@ -86,9 +103,17 @@ body * {
 													div {text-align: center;}
 													
 													</style>
-												<a class="logo"><img src="images\main_logo.gif" alt="" /></a>
+													
+													<div class="logo">
+														<img src="images/main_logo.gif" alt="Logo">
+													</div>
+													
+											
 												
-												<!-- <p><strong>Thanks for visiting my portfolio</strong> <br /> -->
+
+
+												
+												
 												
 											</header>
 										</br>
@@ -102,14 +127,14 @@ body * {
 												</style>
 											
 											<h2>Hey, I'm Jack 	&#x1F44B;</h2>
-											<!-- <p><strong>Thanks for visiting my portfolio</strong> <br /> -->
+										
 											
 										</header>
 										
 											I'm a data analyst and aspiring data engineer. </br> 
 											Ex-microbiologist with a research background. </br> 
-											I used to culture bugs now I squash them. &#x1F91C;	&#x1F41B; </br> 
-										I love learning, music and self-improvement. 
+											Eager learner, keen interest in career development.  </br> 
+										I love &#x1F918; music &#x1F3D3;  table tennis &#x1F3AE; video games
 									</br>
 
 									
@@ -119,7 +144,7 @@ body * {
 										<style>
 										
 											.content img {
-												vertical-align: middle; /* Adjust vertical alignment of the image */
+												vertical-align: middle; 
 											}
 											
 											
@@ -142,9 +167,9 @@ body * {
 		
 											   <h4>Current Role</h4>
 											   <strong>Analyst & data-eng at </strong> <a href="https://www.postcodelottery.co.uk/"><img src="images\ppl-logo.png" alt="" /></a> </br>
-											   Data migration: on-prem &#x2192; cloud<br />
-											   Building pipelines in Matillion <br />
-											   Dashboarding in Tableau
+											   Data migration: SQL server &#x2192; AWS<br />
+											   Analysing marketing data <br />
+											   AWS | Matillion | Tableau <br />
 											</div>
 											...</br>
 											<a href="https://www.linkedin.com/in/jack-murray-7534131b3/">Further History &#x1F448; </a>
@@ -163,7 +188,6 @@ body * {
 										</style>
 									</br>
 									<h4>Projects 	&#x1F6A7;</h4>
-									<!-- <p><strong>Thanks for visiting my portfolio</strong> <br /> -->
 									
 								</header>
 								
@@ -185,7 +209,6 @@ body * {
 										</style>
 									
 									<h4>Certs & Courses	&#x1F3C6;</h4>
-									<!-- <p><strong>Thanks for visiting my portfolio</strong> <br /> -->
 									
 								</header>
 									<a href="">DataTalksClub - DE Zoomcamp </a>  | Apr-24 </br>

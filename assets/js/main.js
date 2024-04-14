@@ -260,3 +260,42 @@
 			});
 
 })(jQuery);
+
+const themeToggle = document.getElementById('theme-toggle');
+const logoImg = document.querySelector('.logo img');
+const body = document.body;
+
+// Function to toggle theme and logo image with fade transition
+function toggleTheme() {
+    // Toggle between light and dark themes
+    body.classList.toggle('light-theme');
+    body.classList.toggle('dark-theme');
+    body.classList.toggle('dark');
+
+    // Set fade out effect
+    logoImg.style.opacity = 0;
+
+    // Toggle logo image based on theme after a short delay
+    setTimeout(() => {
+        if (body.classList.contains('dark')) {
+            logoImg.src = 'images/main_logo_dark.gif'; // Dark theme logo image
+        } else {
+            logoImg.src = 'images/main_logo.gif'; // Light theme logo image
+        }
+
+        // Set fade in effect after image is loaded
+        logoImg.onload = () => {
+            logoImg.style.opacity = 1;
+        };
+    }, 200); // Adjust delay time as needed
+}
+
+// Add event listener to theme toggle button
+themeToggle.addEventListener('click', toggleTheme);
+
+// Initial logo image based on initial theme
+if (body.classList.contains('dark')) {
+    logoImg.src = 'images/main_logo_dark.gif'; // Dark theme logo image
+} else {
+    logoImg.src = 'images/main_logo.gif'; // Light theme logo image
+}
